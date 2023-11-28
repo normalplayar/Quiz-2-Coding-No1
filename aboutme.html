@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <title>About me</title>
+    <script>
+        $(document).ready(function(){
+            $("li").hide("slow")
+        });
+        $(document).ready(function(){
+            $(".toggle1").click(function(){
+                $(".list1").toggle("slow");
+            });
+        });
+        $(document).ready(function(){
+            $(".toggle3").click(function(){
+                $(".list3").toggle("slow");
+            });
+        });
+        $(document).ready(function(){
+            $(".foto").fadeIn("slow");
+        });
+    </script>
+</head>
+<body>
+    <div class="w3-bar w3-black">
+        <a href="index.html" target="_blank" class="w3-bar-item w3-button">Home</a>
+        <a href="#aboutme" class="w3-bar-item w3-button">About me</a>
+        <a href="#contacts" class="w3-bar-item w3-button">Contacts</a>
+      </div>
+    <div class="w3-container w3-indigo">
+      <table>
+        <tr>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+        <td><img src="https://stbm7resourcesprod.blob.core.windows.net/profilepicture/aa479137-79df-495f-9c6e-93fa1a49eabd.jpg" class="w3-border w3-padding foto" title="You can cell me Chris!" alt="My profile picture"></td>
+        <td><h1>Chris Satria Hung</h1>
+            <h3>2702337142</h3></td>
+    </tr>
+        </table>
+    </div>
+    <div class="w3-cell-row">
+        <div class="w3-quarter w3-container w3-light-blue w3-cell">
+            <ol class="w3-ul w3-card-4">
+                <h2 class="toggle1">Education </h2>
+                <li class="w3-hover-green list1 list1"><a href="https://www.technosa.sch.id/" class="edu">TEchnoSA</a> (2005-2014) from begining of my education until grade 4 semester 2</li>
+                <li class="w3-hover-green list1 list1"><a href="https://serpong.binus.sch.id/" class="edu">BINUS School Serpong </a> (2014-2023) then I moved from that homeschool to an "international" school BINUS (due to legal reason they can't be label as international school or something)</li>
+                <li class="w3-hover-green list1 list1"><a href="https://international.binus.ac.id/" class="edu">BINUS University International</a> (2023-present) and here I am studying in an university owned by BINUS, again</li>
+            </ol>
+        </div>
+        <div class="w3-half w3-container w3-blue w3-cell">
+            <h1 class="top toggle2">About me</h1>
+            <p class="bio list2">My name is Chris Satria Hung and born in Tangerang on 13th December 2005. Currently Im in BINUS University International batch 2027 studying computer science major and feeling excited for what comes in my future.</p>
+            </div>
+<div class="w3-quarter w3-container w3-light-blue w3-cell">
+    <ul class="w3-ul w3-card-4">
+        <h2 class="toggle3">Interest </h2>
+        <li class="w3-hover-green list3">My hobbies include: drawing pixelart,walking and thinking, </li>
+        <li class="w3-hover-green list3">My interest can be: looking at someone's art, psychology and biking,</li>
+        <li class="w3-hover-green list3">My favorite color? Don't have one I guess,</li>
+        <li class="w3-hover-green list3">My favorite video game? Honkai impact 3rd,</li>
+        <li class="w3-hover-green list3">My favorite quote? "There are no sides. Only people who help you and people who don't." by Jessica Hyde from the British show Utopia.</li>
+    </ul>
+</div>
+<div class="w3-container w3-blue">
+    <footer>
+    <h3>My contacts: </h3> 
+    <p id="contacts">
+        <img src="https://cdn.discordapp.com/attachments/1168136941787688961/1168136988864565379/discord-icon-2048x2048-nnt62s2u.png?ex=6550ab59&is=653e3659&hm=65d5cdf9d3dcaaab9720d872d1b3229f9d0bd75efa60f29b7e4b5c0896eb0ca7&" class="w3-image w3-round" width="50" height="25"><a href="https://twitter.com/normalplayar">Twitter</a> -
+        <img src="https://cdn.discordapp.com/attachments/1168136941787688961/1168136989170745374/124021.png?ex=6550ab59&is=653e3659&hm=4abf67275ac4c5fed4a542bdc2a6bb28d85e3067b4e024a5afcd7b1d8a4c950f&" class="w3-image w3-round" width="50" height="25"><a href="discordapp.com/users/294738771641892864">Discord</a> -
+        <img src="https://cdn.discordapp.com/attachments/1168136941787688961/1168136989455953961/25231.png?ex=6550ab59&is=653e3659&hm=3d6fe5beb44ade3c64feecef8bcdf8fe3eeb56dd973159dd24101f7481ef540e&" class="w3-image w3-round" width="50" height="25"><a href="https://github.com/normalplayar">Github</a></p>
+    <p class="small">+62 082124105585</p>
+    <p class="small">chrissh37@gmail.com</p>
+    </div>
+</div>
+</body>
+</html>

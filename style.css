@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+body{
+    background-image: url(https://cdn.discordapp.com/attachments/1161518293929168936/1161518779361144873/bg.png?ex=653897a8&is=652622a8&hm=90098b28154900923a5f6e6e8f0ba5f2281ce4ddf3ff0479bf79729cc7a08285&);
+    background-size: cover;
+}
+
+.program{
+    text-align: center;
+
+}
+h1,h3.id{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    max-width: 100%;
+}
+h1.top{
+    padding: 15px;
+    text-align: center;
+}
+hr{
+    height: 3px;
+    border-color: rgb(63, 63, 255);
+    background-color: rgb(63, 63, 255);
+}  
+.navtop {
+    height: 27px;
+    background-color: rgb(63, 63, 255);
+    text-align: center;
+}   
+.navtop a{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: -15px;
+    text-decoration: none;
+}
+.navtop a:hover{
+    background-color: black;
+    color: white;
+}
+th{
+    width: 50%;
+}
+.gender{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: none;
+    margin-top: -10px;
+}
+table{
+    margin-top: -2px;
+    width: 100%;
+}
+.socials a{
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    line-height: .4;
+}
+.socials a:hover{
+    color: wheat;
+    background-color: black;
+}
+.small,.socials{
+    line-height: .4;
+}
+.content{
+    width: 75%;
+    float: left;
+}
+.subcontent{
+    width: 25%;
+    float: left;   
+    background-image: linear-gradient(cyan,rgb(198, 250, 250));
+}
+th.top{
+    padding: 15px;
+    text-align: center;
+}
+.logo:hover{
+    opacity: 0.3;
+}
+.logo{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    height: 50%;
+    width: 50%;
+}
+.bio{
+    text-align: center;
+    font-size: 20px;
+}
+.leftside{
+    width: 25%;
+    float: left;
+}
+.mainside{
+    width: 75%;
+    float: left;
+}
+.edu{
+    text-decoration: none;
+    color: white;
+}
+ol,ul{
+    margin: 0;
+    padding: 0;
+}
+.education{
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .subcontent,.leftside{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    ol{
+        display: block;
+        width: 100%;
+    }
+    .rightside{
+        display: block;
+        width: 100%;
+        float: none;
+    }
+    .logo{
+        height: 50%;
+        width: 50%;
+    }
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
